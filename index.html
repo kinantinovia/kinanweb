@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minimarket Kinan</title>
+
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Judul minimarket -->
+        <header>
+            <h1>
+                <marquee behavior="scroll" direction="left">
+                    SELAMAT DATANG DI MINIMARKET KINAN
+                </marquee>
+            </h1>
+            
+        </header>
+
+        <!-- Daftar produk -->
+        <section id="product-list">
+            <h2>DAFTAR PRODUK</h2>
+
+            <!-- ID products harus sama dengan JavaScript -->
+            <div id="products" class="product-container">
+                <!-- Produk ditampilkan melalui script.js -->
+            </div>
+        </section>
+
+        <!-- Keranjang belanja -->
+        <section id="cart">
+            <h2>KERANJANG BELANJA</h2>
+
+            <ul id="cart-items">
+                <!-- Daftar belanja ditampilkan melalui script.js -->
+            </ul>
+
+            <div class="cart-total">
+                <p>
+                    Total Belanja:
+                    <span id="total-price">Rp 0</span>
+                </p>
+            </div>
+
+            <button id="checkout-btn" type="button">
+                Checkout / Bayar
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            
+        </footer>
+
+    </div>
+
+    <!-- Menghubungkan file JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
